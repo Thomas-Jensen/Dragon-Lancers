@@ -1,0 +1,53 @@
+body
+{
+  max-width: 1920px;
+  background-color: $primary;
+  display: flex;
+}
+
+section
+{
+  display: flex;
+}
+
+.container
+{
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.pad
+{
+  padding-top: 2%;
+}
+
+
+.center
+{
+  margin: auto;
+}
+
+.fourty
+{
+  max-width: 40%;
+}
+
+.footer
+{
+  font-size: 70%;
+  color: $primary;
+  justify-content: space-around;
+  background-color: $secondary;
+  height: 5em;
+& a:link, a:visited
+{
+  color: $primary;
+}
+}
+
+.dragonlancers, .terms, .address
+{
+  margin: auto;
+}
+
+

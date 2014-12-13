@@ -1,0 +1,44 @@
+.input-name{
+  background-color: $primary;
+  border-left: .2em solid;
+  border-bottom: .2em solid;
+  border-top: 0;
+  border-right: 0;
+  width: 75%;
+  height: 3em;
+  margin-bottom: 5%;
+  background: transparent;
+}
+
+.input-email
+{
+  @extend .input-name;
+}
+
+.input-message
+{
+  @extend .input-name;
+  height: auto;
+}
+
+.input-send
+{
+  width: 75%;
+  height: 3em;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+  background-color: $action;
+&:hover
+{
+  background-color: $white;
+}
+}
+
+.form
+{
+  margin-left: 10%;
+}

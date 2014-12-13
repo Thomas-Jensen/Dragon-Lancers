@@ -1,0 +1,157 @@
+.landing-text
+{
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}
+
+.title
+{
+  height: 7em;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.first
+{
+  background-color: #0f1834;
+  margin-top: -3%;
+  z-index: $overlay;
+  position: relative;
+}
+
+.second
+{
+  background-image: url("/assets/images/build/1.jpg");
+}
+
+.third
+{
+  background-image: url("/assets/images/build/2.jpg");
+}
+
+.fourth
+{
+  background-image: url("/assets/images/build/3.jpg");
+}
+
+.fourtysix
+{
+  max-width: 46%;
+}
+
+.landing-wrapper
+{
+  display: block;
+}
+
+.logo-position
+{
+  width: 100%;
+}
+
+.information
+{
+  margin: 15%;
+  align-content: center;
+}
+
+.half
+{
+  max-width: 50%;
+}
+
+.image-circle
+{
+  width: 20em;
+  height: 20em;
+  background-color: $secondary;
+  border-radius: 50%;
+  margin-left: 7%;
+}
+
+.favourites
+{
+  margin: 15%;
+  justify-content: space-around;
+}
+
+video
+{
+  width: 25em;
+  margin-bottom: 5%;
+}
+
+.contact-us
+{
+  margin: 5%;
+  position: relative;
+  background-image: url("/assets/images/build/map.png");
+  background-size: cover;
+}
+
+.social
+{
+  display: flex;
+  margin-left: 10%;
+}
+
+.icon-text-phone
+{
+  position: relative;
+  top: 1em;
+}
+
+.icon-text-map
+{
+  @extend .icon-text-phone;
+  top: 3em;
+}
+
+.icon-text-follow
+{
+  @extend .icon-text-phone;
+  top: 5em;
+}
+
+.products
+{
+  flex-wrap: wrap;
+  margin: 15%;
+}
+
+.product
+{
+  width: 45%;
+  border: .2em solid;
+  text-align: center;
+  margin: 0.5%;
+}
+
+.product-used
+{
+  width: 91.5%;
+  border: .2em solid;
+  margin: 0.5%;
+  height: 10em;
+  display: flex;
+& a
+{
+  margin: auto;
+}
+}
+
+.map-img
+{
+  position: absolute;
+  right: -63px;
+  z-index: -1;
+  bottom: -257px;
+}
+

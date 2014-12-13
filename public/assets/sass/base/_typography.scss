@@ -1,0 +1,39 @@
+$font-stack: 'Myriad Pro','PT Sans', sans-serif;
+
+body
+{
+  font-family: $font-stack;
+  color: $secondary;
+}
+
+p
+{
+  font-size: 150%;
+  line-height: 120%;
+}
+
+h1
+{
+  font-size: 300%;
+}
+
+h2
+{
+  font-size: 250%;
+}
+
+h3
+{
+  font-size: 200%;
+}
+
+.title-text
+{
+  color: $primary;
+  padding-top: 1%;
+}
+
+.footer
+{
+  font-size: 90%;
+}
