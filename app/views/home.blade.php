@@ -1,4 +1,4 @@
-@extends('default.default')
+@extends('layouts.default.default')
 
 <section class="home" id="home">
     <section class="top">
