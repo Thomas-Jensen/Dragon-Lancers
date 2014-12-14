@@ -1,0 +1,231 @@
+.blue-ink
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: $overlay;
+}
+
+.wrapper-services
+{
+  margin: 4em;
+@include bp(AA)
+{
+  flex-wrap: wrap-reverse;
+}
+}
+
+.service-content
+{
+  width: 50%;
+  align-items: center!important;
+@include bp(AA)
+{
+  width: 100%;
+}
+& article
+{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 9em;
+  text-align: center;
+  margin: auto;
+@include bp(AA)
+{
+  padding-top: 0;
+  padding-left: 27%;
+  padding-right: 27%;
+}
+}
+}
+
+.service-showcase
+{
+  width: 50%;
+@include bp(AA)
+{
+  width: 100%;
+  justify-content: center;
+& figure
+{
+  width: 50%;
+}
+}
+}
+
+.services-links
+{
+  justify-content: center;
+  z-index: $menu;
+  max-height: 8.125em;
+
+@include bp(AAA)
+{
+  width: 50%;
+  align-self: center;
+  flex-wrap: wrap;
+  max-height: 100%;
+}
+@include bp(AAAA)
+{
+  width: 60%;
+}
+@include bp(AAAAA)
+{
+  width: 80%;
+}
+}
+
+.services-print
+{
+  & svg
+  {
+    transition: all, .5s, ease-in-out;
+  }
+  &:hover svg
+  {
+    fill:$secondary;
+    transition: all, .5s, ease-in-out;
+  }
+&:hover
+{
+  cursor: pointer;
+}
+}
+
+.active-svg
+{
+  svg
+  {
+    fill:$secondary;
+    transitio: all, .5s, ease-in-out;
+  }
+
+}
+
+.active-svg-text
+{
+& svg g#Layer_1 text
+{
+    fill:$secondary;
+    transition: all, .5s, ease-in-out;
+  }
+}
+
+
+
+.active-svg-text2
+{
+    & svg g#Layer_2 text
+    {
+      fill:$secondary;
+      transition: all, .5s, ease-in-out;
+    }
+  }
+
+.active-svg-text3
+{
+  & svg g#Layer_3 text
+  {
+    fill:$secondary;
+    transition: all, .5s, ease-in-out;
+  }
+}
+
+
+.services-web
+{
+  @extend .services-print;
+}
+
+.services-apps
+{
+  @extend .services-print;
+}
+
+.services-subs
+{
+  @extend .services-print;
+  width: 7.688em;
+@include bp(AAA)
+{
+& svg
+{
+  position: relative;
+  left: -50%;
+}
+}
+}
+
+.service-img-print
+{
+  display: none;
+}
+
+.service-img-web
+{
+  display: none;
+}
+
+.service-img-apps
+{
+  display: none;
+}
+
+.service-img-subs
+{
+  display: none;
+}
+
+.service-txt-print
+{
+  display: none;
+}
+
+.service-txt-web
+{
+  display: none;
+}
+
+.service-txt-apps
+{
+  display: none;
+}
+
+.service-txt-subs
+{
+  display: none;
+}
+
+.service-contact
+{
+  display: flex;
+  width: 6.250em;
+  height: 3.125em;
+  box-shadow: 0.313em 0.313em 0.313em #888888;
+  margin: auto;
+  margin-top: 25%;
+@include bp(AA)
+{
+  margin-top: 10%;
+}
+& p
+{
+  margin: auto;
+  &:hover
+  {
+    color: $white;
+  }
+}
+  &:hover
+  {
+    cursor: pointer;
+    background: $secondary;
+    color: $white;
+  }
+}
+
+.mobile
+{
+  display: none;
+}

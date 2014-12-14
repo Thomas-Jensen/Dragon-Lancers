@@ -24,10 +24,18 @@
 @import "layout/_header.scss";
 @import "layout/_sidebar.scss";
 
-//pages
-@import "pages/_home.scss";
-@import "pages/_contact.scss";
+//views
+@import "views/_home.scss";
+@import "views/_coming.scss";
+@import "views/_services.scss";
+@import "views/_sitemap.scss";
+@import "views/_errors.scss";
+
 
 //themes
 @import "themes/_admin.scss";
 @import "themes/_theme.scss";
+
+//animations
+@import "vendors/animations/animations";
+

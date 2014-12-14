@@ -1,0 +1,12 @@
+.footer
+{
+  flex-direction: row-reverse;
+  height: 3.750em;
+  background-color: $black;
+  padding-right: 10%;
+  padding-top: 1em;
+  @include bp(AAA)
+  {
+    z-index: $overlay;
+  }
+}

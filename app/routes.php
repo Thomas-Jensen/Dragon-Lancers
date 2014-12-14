@@ -13,5 +13,13 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
 });
+
+Route::get('home', 'PagesController@home');
+Route::get('services', 'PagesController@services');
+Route::get('coming', 'PagesController@coming');
+
+
+Route::resource('email', 'EmailController');
+Route::post('contact', 'EmailController@contact');

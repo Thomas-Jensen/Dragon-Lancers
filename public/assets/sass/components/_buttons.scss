@@ -1,0 +1,162 @@
+.menu-button
+{
+  width: 3.125em;
+  height: 3.125em;
+  display: block;
+  position: fixed;
+  top: 15%;
+  right: 5%;
+  z-index: $menuitem;
+  border-radius: 0 0 0 0.250em;
+  transition: all .5s ease-in-out;
+  &:hover
+  {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+  }
+
+  & span
+  {
+    width: 3.125em;
+    height: 0.125em;
+    border-radius: 0.063em;
+    display: block;
+    margin-top: 0.688em;
+    background: $black;
+    transition:all .5s ease-in-out;
+  }
+}
+
+
+
+.cross-icon1
+{
+  transform: translateY(7px) rotate(-45deg));
+  transition: all .5s ease-in-out;
+}
+
+.cross-icon2
+{
+  opacity: 0;
+  visibility: hidden;
+  transition: all .5s ease-in-out;
+}
+
+.cross-icon3
+{
+  transform: translateY(-18px) rotate(45deg);
+  transition: all .5s ease-in-out;
+}
+
+.pressed
+{
+  background-color: $secondary;
+}
+
+.menu-facebook
+{
+  display: inline-block;
+  & svg path
+  {
+    transition: all, .5s, ease-in-out;
+  }
+  &:hover svg path
+  {
+    fill:$secondary;
+    transition: all, .5s, ease-in-out;
+  }
+}
+
+.menu-twitter
+{
+  @extend .menu-facebook;
+}
+
+.menu-googleplus
+{
+  @extend .menu-facebook;
+}
+
+.menu-social
+{
+  margin-bottom: 5%;
+  & li
+  {
+    display: inline;
+  }
+}
+
+.twitter
+{
+  @extend .menu-facebook;
+  & svg path
+  {
+    fill:$white;
+  }
+
+}
+
+.facebook
+{
+  @extend .twitter;
+}
+
+.googleplus
+{
+  @extend .twitter;
+}
+
+.footer li
+{
+  display: inline;
+}
+
+.arrow
+{
+  @extend .facebook;
+  background-position: -40% 0%;
+  width: 17.188em;
+}
+
+.submit
+{
+  transition: all .5s ease-in-out;
+  background-color: $black;
+  color: $white;
+  border: none;
+  position: relative;
+  left: 122%;
+  font-size: 200%;
+  width: 6em;
+  height: 3em;
+  z-index: $animate;
+  @include bp(AAAA)
+  {
+    width: 3em;
+    height: 1.5em;
+  }
+
+  &:hover
+  {
+    transition: all .5s ease-in-out;
+    background-color: $secondary;
+    color: $white;
+    cursor: pointer;
+  }
+}
+
+.active
+{
+  transition: all .5s ease-in-out;
+  color: $secondary;
+}
+
+.clicked
+{
+  box-shadow: none!important;
+}
+
+a > svg
+{
+  pointer-events: none;
+}

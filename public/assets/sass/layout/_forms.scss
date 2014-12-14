@@ -1,44 +1,38 @@
-.input-name{
-  background-color: $primary;
-  border-left: .2em solid;
-  border-bottom: .2em solid;
-  border-top: 0;
-  border-right: 0;
-  width: 75%;
-  height: 3em;
-  margin-bottom: 5%;
-  background: transparent;
+.contact-form
+{
+  width: 65%;
+  padding-right: 16%;
 }
 
-.input-email
+.name
 {
-  @extend .input-name;
-}
-
-.input-message
-{
-  @extend .input-name;
-  height: auto;
-}
-
-.input-send
-{
-  width: 75%;
-  height: 3em;
+  display: block;
   border: none;
-  cursor: pointer;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 0;
-  background-color: $action;
-&:hover
-{
-  background-color: $white;
-}
+  border-bottom: .2em solid $white;
+  background-color: transparent;
+  color: $white;
+  width: 50%;
+  margin-bottom: 10%;
 }
 
-.form
+.email
 {
-  margin-left: 10%;
+  @extend .name;
+  width: 70%;
+  margin-bottom: 10%;
+}
+
+.message
+{
+  @extend .name;
+  width: 90%;
+  margin-bottom: 0;
+}
+
+input
+{
+  placeholder
+  {
+    color: $white;
+  }
 }

@@ -1,9 +1,38 @@
-$font-stack: 'Myriad Pro','PT Sans', sans-serif;
+$font-stack: 'Simplifica', serif;
+
+@font-face
+{
+  font-family: Simplifica;
+  src: url("/assets/fonts/SIMPLIFICA_Typeface.eot") format('embedded-opentype'),
+  url("/assets/fonts/SIMPLIFICA%20Typeface.ttf") format('truetype');
+}
+
+@font-face
+{
+  font-family: DXTA_TRIAL;
+  src: url("/assets/fonts/DXTA_TRIAL.ttf") format('truetype'),
+  url("/assets/fonts/DXTA_TRIAL.eot") format('embedded-opentype');
+}
+
+@font-face
+{
+  font-family: Felixti;
+  src: url("/assets/fonts/Felixti.TTF") format('truetype'),
+  url("/assets/fonts/Felixti.eot") format('embedded-opentype');
+}
+
+
+@font-face
+{
+  font-family: NixieOne;
+  src: url("/assets/fonts/NixieOne.ttf") format('truetype'),
+  url("/assets/fonts/NixieOne.eot") format('embedded-opentype');
+
+}
 
 body
 {
   font-family: $font-stack;
-  color: $secondary;
 }
 
 p
@@ -27,13 +56,43 @@ h3
   font-size: 200%;
 }
 
-.title-text
+.dl-texthover
 {
-  color: $primary;
-  padding-top: 1%;
+  font-size:120%!important;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 150%;
 }
 
-.footer
+.landing-text
 {
-  font-size: 90%;
+  font-size: 1000%;
+  color: $landingcolor;
+  margin-bottom: 10%;
+}
+
+.coming-soon
+{
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+  & h1
+  {
+    font-family: Felixti;
+    color: $landingcolor;
+    font-size: 500%;
+  }
+  & figure
+  {
+    width: 40%;
+    margin-top: 4em;
+  }
+}
+
+.qualities-small
+{
+  margin-top: 10%!important;
+  & h2{
+    margin-bottom: 5%;
+  }
 }

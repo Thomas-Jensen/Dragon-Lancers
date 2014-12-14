@@ -1,0 +1,76 @@
+@mixin bp($point)
+{
+  @if $point == D
+  {
+    @media (min-width: 1920px) and (max-width: 1920px) { @content;}
+  }
+  @if $point == C
+  {
+    @media (max-width: 1600px), (max-device-width:1600px) { @content; }
+  }
+  @else if $point == BB
+  {
+    @media (max-width: 1366px) { @content; }
+  }
+  @else if $point == B
+  {
+    @media (max-width: 1280px) { @content; }
+  }
+  @else if $point == A
+  {
+    @media (max-width: 1024px)  { @content; }
+  }
+  @else if $point == AA
+  {
+    @media (max-width: 800px)  { @content; }
+  }
+  @else if $point == AAA
+  {
+    @media (max-width: 640px)  { @content; }
+  }
+  @else  if $point == AAAA
+  {
+    @media (max-width: 480px) { @content;}
+  }
+  @else  if $point == AAAAA
+  {
+    @media (max-width: 320px) { @content;}
+  }
+}
+
+@mixin ot($orient)
+{
+  @if $orient == p
+  {
+    @media (orientation:portrait) { @content;}
+  }
+  @else if $orient == l
+  {
+    @media (orientation:landscape) {@content;}
+  }
+}
+
+
+@mixin md($orient)
+{
+  @if $orient == pad
+  {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {@content;}
+  }
+  @if $orient == padl
+  {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:landscape) {@content;}
+  }
+  @if $orient == padp
+  {
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {@content;}
+  }
+  @else if $orient == phone
+  {
+    @media only screen and (max-device-width: 480px) {@content;}
+  }
+  @else if $orient == phonep
+  {
+    @media only screen and (max-device-width: 320px) and (orientation:portrait) {@content;}
+  }
+}

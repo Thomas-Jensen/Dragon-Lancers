@@ -1,0 +1,15 @@
+.error
+{
+  flex-direction: column;
+  margin: auto;
+  padding-top: 10%;
+& figure
+{
+  margin: auto;
+  width: 50%;
+&  figcaption
+{
+  text-align:center;
+}
+}
+}

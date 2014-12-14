@@ -1,125 +1,88 @@
 a
 {
-  transition: all 0.5s ease in out;
-}
-
-a:link, a:visited
-{
+  transition: all, .5s, ease-in-out;
+  text-decoration: none;
   color: $black;
-  text-decoration: none;
+
+  & :hover
+  {
+    transition: all, .5s, ease-in-out;
+    color: $secondary;
+  }
 }
 
-a:hover, a:active
+.menu
 {
-  color: $action;
-  text-decoration: none;
-}
-
-
-.home
-{
-  display: block;
-  width: 50px;
-  height: 50px;
-  background-image: url("/assets/images/build/icons-landing-page.png");
-  background-size: 1000px 50px;
-  background-position: 0 0;
-}
-
-.info
-{
-  @extend .home;
-  background-position: -57px 0;
-}
-
-
-.fav
-{
-  @extend .home;
-  background-position: -118px 0;
-}
-
-.machines
-{
-  @extend .home;
-  background-position: -184px 0;
-}
-
-.contact
-{
-  @extend .home;
-  background-position: -255px 0;
-}
-
-.language-en
-{
-  @extend .home;
-  background-position: -318px 0;
-}
-
-.language-da
-{
-  @extend .home;
-  background-position: -384px 0;
-}
-
-.phone
-{
-  @extend .home;
-  background-position: -450px 0;
-}
-
-.map
-{
-  @extend .home;
-  background-position: -508px 0;
-}
-
-.facebook
-{
-  @extend .home;
-  background-position: -568px 0;
-}
-
-.googleplus
-{
-  @extend .home;
-  background-position: -628px 0;
-}
-
-.linkedin
-{
-  @extend .home;
-  background-position: -682px 0;
-}
-
-.menu-home
-{
+  width: 18.750em;
   position: fixed;
-  left: 5%;
-  top: 35%;
+  background-color: $white;
+  right: 0;
+  top: 10%;
+  display: none;
   z-index: $menu;
 }
 
-.info-link{
-  display: block;
-  width: 400px;
-  height: 50px;
-  background-image: url("/assets/images/build/icons-landing-page.png");
-  background-size: 2000px 100px;
-  background-position: 448px 63px;
-}
-
-.readMore
+.nav-list
 {
-  display: inline-flex;
-  width: 8em;
-  height: 1.3em;
-  border: 0.15em solid;
-  padding-top: 2%;
-  flex-direction: column;
-  align-items: center;
+  margin-top: 40%;
+  margin-left: 15%;
+  margin-bottom: 40%;
+
+  & a
+  {
+    font-size: 180%;
+  }}
+
+.nav-item
+{
+  margin-bottom: 1%;
+  & a:hover
+  {
+    color: $secondary;
+  }
 }
 
+.current
+{
+  color: $secondary;
+}
+
+.menu-hover
+{
+  background: $secondary!important;
+}
+
+.work-more
+{
+  margin-bottom: 4em;
+  margin-top: 4em;
+  z-index: $animate;
+  & h2{
+    @include bp(D)
+    {
+      font-size: 400%;
+    }
+    @include bp(C)
+    {
+      font-size: 350%;
+    }
+    @include bp(B)
+    {
+      font-size: 255%;
+    }
+    @include bp(AA)
+    {
+      font-size: 220%;
+    }
+    @include bp(AAA)
+    {
+      font-size: 175%;
+    }
+    @include bp(AAAA)
+    {
+      font-size: 150%;
+    }
+  }
+}
 
 
