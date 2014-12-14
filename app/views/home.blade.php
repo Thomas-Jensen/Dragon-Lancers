@@ -10,7 +10,6 @@
             <source src="{{ URL::asset('assets/movies/Dl-video-landing.mp4')}}" type="video/mp4" media="screen and (min-width:481px)">
             <source src="{{ URL::asset('assets/movies/Dl-video-landing.webm')}}" type="video/webm" media="screen and (min-width:481px)">
         </video>
-        <?php include("nav.php"); ?>
     </section>
 </section>
 <section class="philosophy" id="philosophy">
