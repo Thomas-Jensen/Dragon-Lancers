@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
     <head>
     <meta charset="UTF-8">
@@ -31,11 +32,11 @@
 <body>
     <section class="container">
 
-        @include('nav')
+        @include('layouts.default.nav')
 
         @yield('content')
 
-        @include('footer')
+        @include('layouts.default.footer')
 
     </section>
 </body>

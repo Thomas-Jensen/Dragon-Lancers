@@ -19,6 +19,7 @@ Route::get('/', function()
 Route::get('home', 'PagesController@home');
 Route::get('services', 'PagesController@services');
 Route::get('coming', 'PagesController@coming');
+Route::get('browser', 'PagesController@browser');
 
 
 Route::resource('email', 'EmailController');

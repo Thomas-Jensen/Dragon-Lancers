@@ -49,7 +49,45 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 App::error(function(Exception $exception, $code)
 {
 	Log::error($exception);
+
+	if (Config::get('app.debug'))
+	{
+		return;
+	}
+
+		switch($code)
+		{
+			case 400:
+				$message = 'Bad request';
+				break;
+			case 401:
+				$message = 'Unauthorized';
+				break;
+			case 403:
+				$message ='Forbidden';
+				break;
+			case 404:
+				$message = 'Not found';
+				break;
+			case 500:
+				$message = 'Internal server error';
+				break;
+			case 503:
+				$message = 'Service unavailable';
+				break;
+			default:
+				$message = null;
+		}
+	{
+		$data = array('code'=> $code, 'message'=>$message);
+
+		return Response::view('errors.error', $data, $code);
+	}
+
 });
+
+
+
 
 /*
 |--------------------------------------------------------------------------

@@ -1,5 +1,8 @@
 @extends('layouts.default.default')
 
+
+@section('content')
+
 <section class="home" id="home">
     <section class="top">
         <figure class="no-video">
@@ -8,7 +11,7 @@
         <video autoplay loop class="landing-video" id="videoElement">
 
             <source src="{{ URL::asset('assets/movies/Dl-video-landing.mp4')}}" type="video/mp4" media="screen and (min-width:481px)">
-            <source src="{{ URL::asset('assets/movies/Dl-video-landing.webm')}}" type="video/webm" media="screen and (min-width:481px)">
+            <source src="{{ URL::asset('assets/movies/Dl-video-.webm')}}" type="video/webm" media="screen and (min-width:481px)">
         </video>
     </section>
 </section>
@@ -258,6 +261,7 @@
                 <img src="{{ URL::asset('assets/images/build/Ilona-Olejnik.png')}}" width="100%" alt="Ilona Olejnik">
                 <span class="title-start-i">GRAPHIC</span><span class="title-end">DESIGNER</span>
             </figure>
+        </article>
     </section>
 
     <section class="box-row between">
@@ -357,12 +361,12 @@
 </section>
 
 <section class="departure">
-    <figure class="end"><img src="{{ URL::asset('assets/images/build/Untitssadadaddled-3.png')}}" width="100%" alt="contact us">
+    <figure class="end"><img src="{{ URL::asset('assets/images/build/form-bg.png')}}" width="100%" alt="contact us">
         <section id="bottom-metro" data-type="background" data-speed="10"></section>
     </figure>
     <video autoplay loop class="contact-video" id="videoElement1">
-        <source src="{{ URL::asset('assets/movies/NycTrafficPhotojpeg.mp4')}}" type="video/mp4">
-        <source src="{{ URL::asset('assets/movies/NycTrafficH264.ogv')}}" type="video/ogg">
+        <source src="{{ URL::asset('assets/movies/NycTraffic.mp4')}}" type="video/mp4">
+        <source src="{{ URL::asset('assets/movies/NycTraffic.ogv')}}" type="video/ogg">
     </video>
     <figure class="no-video-contact">
         <img src="{{ URL::asset('assets/images/build/trial3.jpg')}}" width="100%" alt="contact metro">

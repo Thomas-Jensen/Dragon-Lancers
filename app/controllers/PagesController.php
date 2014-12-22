@@ -25,6 +25,12 @@ class PagesController extends \BaseController {
 	}
 
 
+	public function browser()
+	{
+		return View::make('errors.browser');
+	}
+
+
 	public function index()
 	{
 		//
