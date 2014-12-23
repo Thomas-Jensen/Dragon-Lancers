@@ -1,4 +1,4 @@
-@extends('default.default')
+@extends('layouts.default.default')
 
 @section('content')
 
@@ -88,7 +88,7 @@
                 "We love subscriptions, as they gives our clients complete peace of mind and the best service we can offer,
                 tailored services for you on a monthly basis"
             </p>
-            <a class="service-contact" href="index#contact"><p>Get in touch</p></a>
+            <a class="service-contact" href="home#contact"><p>Get in touch</p></a>
         </article>
 
     </section>

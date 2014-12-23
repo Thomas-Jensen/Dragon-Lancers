@@ -1,3 +1,14 @@
+/**
+ * Created by ThomasJensen on 23/12/14.
+ */
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-54943135-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
 /*!
  * Stellar.js v0.6.2
  * http://markdalgleish.com/projects/stellar.js
@@ -1086,6 +1097,46 @@
 /**
  * Created by ThomasJensen on 23/12/14.
  */
+(function() {
+    'use strict';
+
+    // Set the name of the "hidden" property and the change event for visibility
+    var hidden, visibilityChange;
+    if (typeof document.hidden !== "undefined") {
+        hidden = "hidden";
+        visibilityChange = "visibilitychange";
+    } else if (typeof document.mozHidden !== "undefined") { // Firefox up to v17
+        hidden = "mozHidden";
+        visibilityChange = "mozvisibilitychange";
+    } else if (typeof document.webkitHidden !== "undefined") { // Chrome up to v32, Android up to v4.4, Blackberry up to v10
+        hidden = "webkitHidden";
+        visibilityChange = "webkitvisibilitychange";
+    }
+
+    var videoElement = document.getElementById("videoElement");
+
+    // If the page is hidden, pause the video;
+    // if the page is shown, play the video
+    function handleVisibilityChange() {
+        if (document[hidden]) {
+            videoElement.pause();
+        } else {
+            videoElement.play();
+        }
+    }
+
+    // Warn if the browser doesn't support addEventListener or the Page Visibility API
+    if (typeof document.addEventListener === "undefined" || typeof document[hidden] === "undefined") {
+        alert("This demo requires a modern browser that supports the Page Visibility API.");
+    } else {
+        // Handle page visibility change
+        document.addEventListener(visibilityChange, handleVisibilityChange, false);
+    }
+
+})();
+/**
+ * Created by ThomasJensen on 23/12/14.
+ */
 $(document).ready(function(){
     $('.menu-button').click(function(event){
         event.stopPropagation();
@@ -1605,111 +1656,3 @@ $(document).ready(function(){
 
 
 });
-/**
- * Created by ThomasJensen on 23/12/14.
- */
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-54943135-1', 'auto');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-/**
- * Created by ThomasJensen on 23/12/14.
- */
-$('a[href^="#"]').on('click', function(event) {
-    var target = $( $(this).attr('href') );
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-});
-/**
- * Created by ThomasJensen on 14/12/14.
- */
-    // create social networking pop-ups
-(function() {
-    // link selector and pop-up window size
-    var Config = {
-        Link: "a.share",
-        Width: 500,
-        Height: 500
-    };
-
-    // add handler links
-    var slink = document.querySelectorAll(Config.Link);
-    for (var a = 0; a < slink.length; a++) {
-        slink[a].onclick = PopupHandler;
-    }
-
-    // create popup
-    function PopupHandler(e) {
-
-        e = (e ? e : window.event);
-        var t = (e.target ? e.target : e.srcElement);
-
-        // popup position
-        var
-            px = Math.floor(((screen.availWidth || 1024) - Config.Width) / 2),
-            py = Math.floor(((screen.availHeight || 700) - Config.Height) / 2);
-
-        // open popup
-        var popup = window.open(t.href, "social",
-            "width="+Config.Width+",height="+Config.Height+
-            ",left="+px+",top="+py+
-            ",location=0,menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");
-        if (popup) {
-            popup.focus();
-            if (e.preventDefault) e.preventDefault();
-            e.returnValue = false;
-        }
-
-        return !!popup;
-    }
-
-}());
-
-/**
- * Created by ThomasJensen on 23/12/14.
- */
-(function() {
-    'use strict';
-
-    // Set the name of the "hidden" property and the change event for visibility
-    var hidden, visibilityChange;
-    if (typeof document.hidden !== "undefined") {
-        hidden = "hidden";
-        visibilityChange = "visibilitychange";
-    } else if (typeof document.mozHidden !== "undefined") { // Firefox up to v17
-        hidden = "mozHidden";
-        visibilityChange = "mozvisibilitychange";
-    } else if (typeof document.webkitHidden !== "undefined") { // Chrome up to v32, Android up to v4.4, Blackberry up to v10
-        hidden = "webkitHidden";
-        visibilityChange = "webkitvisibilitychange";
-    }
-
-    var videoElement = document.getElementById("videoElement");
-
-    // If the page is hidden, pause the video;
-    // if the page is shown, play the video
-    function handleVisibilityChange() {
-        if (document[hidden]) {
-            videoElement.pause();
-        } else {
-            videoElement.play();
-        }
-    }
-
-    // Warn if the browser doesn't support addEventListener or the Page Visibility API
-    if (typeof document.addEventListener === "undefined" || typeof document[hidden] === "undefined") {
-        alert("This demo requires a modern browser that supports the Page Visibility API.");
-    } else {
-        // Handle page visibility change
-        document.addEventListener(visibilityChange, handleVisibilityChange, false);
-    }
-
-})();
