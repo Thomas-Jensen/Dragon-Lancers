@@ -70,7 +70,7 @@
     <a class="work-more" href="coming"><h2>SEE MORE</h2></a>
 </section>
 
-<section id="skyline-parallax" data-type="background" data-speed="10"><section id="services"></section></section>
+<section id="skyline-parallax" data-stellar-background-ratio="0.5"><section id="services"></section></section>
 
 
 <section class="services">
@@ -186,7 +186,7 @@
 </svg>
         </a></figure>
 </section>
-<section id="top-metro" data-type="background" data-speed="10"></section>
+<section id="top-metro" data-stellar-background-ratio="0.5"></section>
 
 <section class="team" id="team">
     <section class="team-small-screens">
@@ -377,9 +377,9 @@
 
         {{ Form::text('name', null, array('placeholder' => 'Name:', 'class' => 'name', 'required')) }}
         {{ Form::email('email', null, array('placeholder' => 'Email:', 'class' => 'email', 'required')) }}
-        {{ Form::textarea('messages', null, array('placeholder' => 'Message:', 'class' => 'message', 'required')) }}
+        {{ Form::text('messages', null, array('placeholder' => 'Message:', 'class' => 'message', 'required')) }}
 
-        {{ Form::submit('submit', array('class' => 'submit', 'value' => 'SEND')) }}
+        {{ Form::submit('SEND', array('class' => 'submit')) }}
         {{ Form::close() }}
     </section>
 
