@@ -31,8 +31,14 @@
 
 input
 {
-  placeholder
-  {
-    color: $white;
-  }
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
 }
+
+::placeholder
+{
+  color: $white;
+}
+
