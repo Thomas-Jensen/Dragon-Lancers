@@ -47,7 +47,7 @@ module.exports = function(grunt) {
             dist: {
                 src: [
                     'js/vendor/*.js', // All JS in the vendor folder
-                    'js/*.js' // All JS in the main js folder
+                    'js/dragonlancers.js' // This specific file
                 ],
                 dest: 'js/build/production.js'
             }

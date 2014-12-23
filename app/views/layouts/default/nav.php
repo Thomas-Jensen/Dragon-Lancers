@@ -10,38 +10,38 @@
         <nav>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a class="home-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
+                    <a data-scroll class="home-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
                         echo 'href="#home"'; else echo 'href="index"';?>>Home</a>
 
                 </li>
                 <li class="nav-item">
 
-                    <a class="philosophy-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
+                    <a data-scroll class="philosophy-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
                         echo 'href="#philosophy"'; else echo 'href="index#philosophy"';?>>Philosophy</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="work-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
+                    <a data-scroll class="work-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
                         echo 'href="#work"'; else echo 'href="coming"';?>>Work</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="services-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
+                    <a data-scroll class="services-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
                         echo 'href="#services"'; else echo 'href="services"';?>>Services</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="team-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
+                    <a data-scroll class="team-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
                         echo 'href="#team"'; else echo 'href="index#team"';?>>Team</a>
                 </li>
                 <li class="nav-item">
 
-                    <a class="contact-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
+                    <a data-scroll class="contact-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
                         echo 'href="#contact"'; else echo 'href="index#contact"';?>>Contact</a>
                 </li>
 
                 <li class="nav-item">
-                    <a <?php if (strpos($_SERVER['PHP_SELF'], 'blog'))
+                    <a data-scroll <?php if (strpos($_SERVER['PHP_SELF'], 'blog'))
                         echo 'class="active"';?> href = "blog">Blog</a>
                 </li>
             </ul>

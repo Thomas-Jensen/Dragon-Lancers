@@ -6,7 +6,7 @@
     <section class="coming-soon">
         <h1>COMING SOON...</h1>
         <figure>
-            <img src="{{ URL::asset('images/build/paw-coming-soon.png') }}" width="100%" alt="Coming Soon Paws...">
+            <img src="{{ URL::asset('assets/images/build/paw-coming-soon.png') }}" width="100%" alt="Coming Soon Paws...">
         </figure>
     </section>
 
