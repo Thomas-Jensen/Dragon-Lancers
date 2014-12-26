@@ -9,8 +9,8 @@
     <title>Dragon Lancers | Creative Agency</title>
     <link href="{{ asset('assets/css/build/main.css') }}" type="text/css" rel="stylesheet">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="{{ asset('assets/js/build/production.js') }}" async="async"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.0.0/picturefill.min.js" async="async"></script>
+    <script src="{{ asset('assets/js/build/production.js') }}"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/picturefill/2.0.0/picturefill.min.js"></script>
     <script>
         if (!Modernizr.flexbox) {
             window.location.href = "http://dragonlancers.com/browser";

@@ -1,42 +1,12 @@
 <?php
 
-class PagesController extends \BaseController {
+class BlogController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function home()
-	{
-		return View::make('home');
-	}
-
-
-	public function services()
-	{
-		return View::make('services');
-	}
-
-
-	public function blog()
-	{
-		return View::make('blog');
-	}
-
-
-	public function coming()
-	{
-		return View::make('errors.coming');
-	}
-
-
-	public function browser()
-	{
-		return View::make('errors.browser');
-	}
-
-
 	public function index()
 	{
 		//

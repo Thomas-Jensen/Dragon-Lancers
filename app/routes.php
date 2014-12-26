@@ -20,6 +20,7 @@ Route::get('home', 'PagesController@home');
 Route::get('services', 'PagesController@services');
 Route::get('coming', 'PagesController@coming');
 Route::get('browser', 'PagesController@browser');
+Route::get('blog', 'PagesController@blog');
 
 
 Route::resource('email', 'EmailController');
