@@ -18,10 +18,15 @@ class PagesController extends \BaseController {
 		return View::make('services');
 	}
 
+	public function work()
+	{
+		return View::make('errors.coming');
+	}
+
 
 	public function blog()
 	{
-		return View::make('blog');
+		return View::make('errors.coming');
 	}
 
 

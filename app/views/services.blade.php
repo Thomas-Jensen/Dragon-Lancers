@@ -127,47 +127,55 @@
     });
 </script>
 
+
 <?php
+
+if (isset($_GET['s'])) {
 echo "<script>$(document).ready(function(){
  $('" . ".services-" . $_GET['s'] . "').addClass('active-svg');
  });</script>"
+        ;}
 ?>
 
-
-@if ($_GET['s'] === 'print')
+<?php
+if (isset($_GET['s'])) {
+if ($_GET['s'] === 'print')
     echo "<script>$(document).ready(function(){
 $('.service-txt-print').show();
 $('.service-img-print').show();
  });</script>";
 
-@elseif ($_GET['s'] === 'web')
+elseif ($_GET['s'] === 'web')
     echo "<script>$(document).ready(function(){
 $('.service-txt-web').show();
 $('.service-img-web').show();
  });</script>";
 
-@elseif ($_GET['s'] === 'apps')
+elseif ($_GET['s'] === 'apps')
     echo "<script>$(document).ready(function(){
 $('.service-txt-apps').show();
 $('.service-img-apps').show();
  });</script>";
 
-@elseif ($_GET['s'] === 'subs')
+elseif ($_GET['s'] === 'subs')
     echo "<script>$(document).ready(function(){
 $('.service-txt-subs').show();
 $('.service-img-subs').show();
  });</script>";
-@endif
+    ;}
+?>
 
 
+<?php
 
-@if ($_GET['s'] === null)
+if (!isset($_GET['s'])) {
     echo "<script>$(document).ready(function(){
 $('.services-print').addClass('active-svg');
 $('.service-txt-print').show();
 $('.service-img-print').show();
  });</script>";
-@endif
+    }
+?>
 
 
 

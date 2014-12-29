@@ -10,39 +10,46 @@
         <nav>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a data-scroll class="home-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
-                        echo 'href="#home"'; else echo 'href="index"';?>>Home</a>
+                    <a  class="home-link" @if (Request::path() == 'home') data-scroll href="#home" @endif
+                            @if (Request::url() == Request::root()) data-scroll href="#home" @endif
+                            href="home"> Home</a>
+
 
                 </li>
                 <li class="nav-item">
 
-                    <a data-scroll class="philosophy-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
-                        echo 'href="#philosophy"'; else echo 'href="index#philosophy"';?>>Philosophy</a>
+                    <a  class="philosophy-link" @if (Request::path() == 'home') data-scroll href="#philosophy" @endif
+                        @if (Request::url() == Request::root()) data-scroll href="#philosophy" @endif
+                         href="home#philosophy">Philosophy</a>
                 </li>
 
                 <li class="nav-item">
-                    <a data-scroll class="work-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
-                        echo 'href="#work"'; else echo 'href="coming"';?>>Work</a>
+                    <a class="work-link" @if (Request::path() ==  'home') data-scroll href="#work" @endif
+                        @if (Request::url() == Request::root()) data-scroll href="#work" @endif
+                         href="work">Work</a>
                 </li>
 
                 <li class="nav-item">
-                    <a data-scroll class="services-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
-                        echo 'href="#services"'; else echo 'href="services"';?>>Services</a>
+                    <a  class="services-link" @if (Request::path() ==  'home') data-scroll href="#services" @endif
+                        @if (Request::url() == Request::root()) data-scroll href="#services" @endif
+                         href="services">Services</a>
                 </li>
 
                 <li class="nav-item">
-                    <a data-scroll class="team-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
-                        echo 'href="#team"'; else echo 'href="index#team"';?>>Team</a>
+                    <a  class="team-link" @if (Request::path() ==  'home') data-scroll href="#team" @endif
+                        @if (Request::url() == Request::root()) data-scroll href="#team" @endif
+                        href="home#team">Team</a>
                 </li>
                 <li class="nav-item">
 
-                    <a data-scroll class="contact-link" <?php if (strpos($_SERVER['PHP_SELF'], 'index'))
-                        echo 'href="#contact"'; else echo 'href="index#contact"';?>>Contact</a>
+                    <a  class="contact-link" @if (Request::path() ==  'home') data-scroll href="#contact" @endif
+                        @if (Request::url() == Request::root()) data-scroll href="#contact" @endif
+                        href="home#contact">Contact</a>
                 </li>
 
                 <li class="nav-item">
-                    <a data-scroll <?php if (strpos($_SERVER['PHP_SELF'], 'blog'))
-                        echo 'class="active"';?> href = "blog">Blog</a>
+                    <a  @if (Request::path() == 'blog')
+                         class="active" @endif href = "blog">Blog</a>
                 </li>
             </ul>
         </nav>

@@ -85,4 +85,23 @@ a
   }
 }
 
+.blog-menu
+{
+  display: block;
+  width: 20%;
+  height: 10em;
+  margin: .5%;
+  padding: 1%;
+  color: $white;
+  &:hover
+  {
+    opacity: .8;
+  }
+  & h2
+  {
+    color: $white;
+  }
+
+}
+
 

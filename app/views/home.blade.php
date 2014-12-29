@@ -67,7 +67,7 @@
             <img src="{{ URL::asset('assets/images/build/work-dragon-lancers.jpg')}}" width="100%" alt="our work">
         </figure>
     </div>
-    <a class="work-more" href="coming"><h2>SEE MORE</h2></a>
+    <a class="work-more" href="work"><h2>SEE MORE</h2></a>
 </section>
 
 <section id="skyline-parallax" data-stellar-background-ratio="0.5"><section id="services"></section></section>
