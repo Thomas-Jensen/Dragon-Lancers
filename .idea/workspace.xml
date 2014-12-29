@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
+      <file leaf-file-name="EmailController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/EmailController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22206897" vertical-offset="0" max-vertical-offset="725">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.68689656" vertical-offset="307" max-vertical-offset="2921">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -86,11 +86,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/default/default.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/sass/vendors/animations/animations.scss" />
         <option value="$PROJECT_DIR$/public/assets/sass/main.scss" />
-        <option value="$PROJECT_DIR$/app/controllers/EmailController.php" />
         <option value="$PROJECT_DIR$/public/assets/sass/layout/_forms.scss" />
         <option value="$PROJECT_DIR$/app/config/mail.php" />
         <option value="$PROJECT_DIR$/app/config/services.php" />
         <option value="$PROJECT_DIR$/app/views/emails/contact.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/EmailController.php" />
       </list>
     </option>
   </component>
@@ -958,40 +958,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/EmailController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78206897" vertical-offset="192" max-vertical-offset="2921">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding>
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
-            <marker date="1419872069000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22206897" vertical-offset="0" max-vertical-offset="725">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1419875294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419875294000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419875294000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/EmailController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68689656" vertical-offset="307" max-vertical-offset="2921">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
