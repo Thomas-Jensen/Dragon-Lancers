@@ -25,4 +25,4 @@ Route::get('browser', 'PagesController@browser');
 
 
 Route::resource('email', 'EmailController');
-Route::post('contact', 'EmailController@contact');
+Route::post('contact', array('before' => 'csrf', 'uses' => 'EmailController@contact'));
