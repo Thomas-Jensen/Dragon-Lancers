@@ -31,7 +31,7 @@ class EmailController extends \BaseController {
         Mail::queue('emails.contact', $data, function($message) use ($data)
             {
                 $message->from($data['email'], $data['name']);
-                $message->to('hello@dragonlancers.com')->subject('DragonLancers.com contact form');
+                $message->to('thomaspatrickjensen@gmail.com')->subject('DragonLancers.com contact form');
             }
         )->csrf;
         return 'Sent!';
