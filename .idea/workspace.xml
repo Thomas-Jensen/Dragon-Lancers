@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/PagesController.php">
+      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/default/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38068965" vertical-offset="368" max-vertical-offset="2921">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.35533708" vertical-offset="0" max-vertical-offset="1219">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -77,7 +77,6 @@
         <option value="$PROJECT_DIR$/public/assets/js/build/social.min.js" />
         <option value="$PROJECT_DIR$/public/assets/sass/layout/_forms.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/default/nav.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/default/default.blade.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_12_26_102304_CreatePostsTable.php" />
         <option value="$PROJECT_DIR$/public/assets/sass/main.scss" />
         <option value="$PROJECT_DIR$/public/assets/sass/helpers/_variables.scss" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/default/default.blade.php" />
       </list>
     </option>
   </component>
@@ -267,7 +267,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -276,7 +276,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -545,13 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42876166" vertical-offset="0" max-vertical-offset="1150">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/default/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32303372" vertical-offset="0" max-vertical-offset="1219">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -889,6 +882,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38068965" vertical-offset="368" max-vertical-offset="2921">
           <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Display a listing of the resource. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Show the form for creating a new resource. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Store a newly created resource in storage. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Display the specified resource. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Show the form for editing the specified resource. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Update the specified resource in storage. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder=" Remove the specified resource from storage. ..." />
+            <marker date="1419870099000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/default/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35533708" vertical-offset="0" max-vertical-offset="1219">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding />
         </state>
       </provider>
