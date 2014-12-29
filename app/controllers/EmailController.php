@@ -33,7 +33,7 @@ class EmailController extends \BaseController {
                 $message->from($data['email'], $data['name']);
                 $message->to('thomaspatrickjensen@gmail.com')->subject('DragonLancers.com contact form');
             }
-        )->before(csrf);
+        )->before('csrf');
         return 'Sent!';
         }
         else{

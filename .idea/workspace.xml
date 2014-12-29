@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/EmailController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.68689656" vertical-offset="307" max-vertical-offset="2921">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -973,7 +973,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/EmailController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.68689656" vertical-offset="307" max-vertical-offset="2921">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>
