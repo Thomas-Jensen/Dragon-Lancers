@@ -31,7 +31,7 @@ class EmailController extends \BaseController {
         Mail::queue('emails.contact', $data, function($message) use ($data)
             {
                 $message->from($data['email'], $data['name']);
-                $message->to('thomaspatrickjensen')->subject('Dragon Lancers contact form');
+                $message->to('thomaspatrickjensen@gmail.com')->subject('Dragon Lancers contact form');
             }
         );
         return 'Sent!';
