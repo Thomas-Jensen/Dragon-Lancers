@@ -36,7 +36,7 @@ class EmailController extends \BaseController {
         );
 		Mail::queue('emails.welcome', $data, function($message) use ($data)
 		{
-			$message->from('welcome@dragonlancers.com', 'Dragon Lancers Welcome (No Reply)');
+			$message->from('welcome@dragonlancers.com', 'Dragon Lancers Welcome');
 			$message->to($data['email'])->subject('Welcome to Dragon Lancers');
 		}
 		);
