@@ -27,7 +27,7 @@ module.exports = function(grunt) {
         sass: {
             dev: {
                 options: {
-                    style: 'expanded',
+                    style: 'compressed',
                     trace: true
                 },
                 files: {

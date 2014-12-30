@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/default/default.blade.php">
+      <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/assets/sass/layout/_forms.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29073033" vertical-offset="0" max-vertical-offset="1219">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.7503448" vertical-offset="399" max-vertical-offset="1150">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -66,7 +66,6 @@
         <option value="$PROJECT_DIR$/app/views/errors/coming.blade.php" />
         <option value="$PROJECT_DIR$/app/views/errors/browser.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/js/vendor/smooth-scroll.js" />
-        <option value="$PROJECT_DIR$/public/assets/Gruntfile.js" />
         <option value="$PROJECT_DIR$/public/assets/js/build/social.min.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/default/nav.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_12_26_102304_CreatePostsTable.php" />
@@ -88,9 +87,10 @@
         <option value="$PROJECT_DIR$/app/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/EmailController.php" />
-        <option value="$PROJECT_DIR$/public/assets/sass/layout/_forms.scss" />
         <option value="$PROJECT_DIR$/app/views/emails/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/default/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/public/assets/sass/layout/_forms.scss" />
       </list>
     </option>
   </component>
@@ -509,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="738">
           <caret line="0" column="568" selection-start-line="0" selection-start-column="568" selection-end-line="0" selection-end-column="568" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40514904" vertical-offset="828" max-vertical-offset="2415">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1203,21 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/sass/layout/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7503448" vertical-offset="399" max-vertical-offset="1150">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <marker date="1419957493000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419957493000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419957493000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419957493000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419957493000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1419957493000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/EmailController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6510345" vertical-offset="425" max-vertical-offset="3059">
@@ -1267,6 +1245,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29073033" vertical-offset="0" max-vertical-offset="1219">
           <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="{&quot;horizontalScrolling&quot;: false...}" />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="{&quot;speed&quot;: 1000...}" />
+            <marker date="1419959047000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1419959047000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15853658" vertical-offset="550" max-vertical-offset="2415">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;livereload&quot;: true...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;tasks&quot;: 'concat'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;tasks&quot;: 'imagemin'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;style&quot;: 'compressed'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;css/build/main.css&quot;: 'sass/main.scss'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;style&quot;: 'compressed'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;css/build/main.css&quot;: 'sass/main.scss'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;dest&quot;: 'js/build/production.js'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;css/build/main.css&quot;: 'css/build/main.css'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;mangle&quot;: false...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;js/build/production.min.js&quot;: 'js/build/production.js'...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1419960242000" expanded="true" signature="-1:-1" placeholder="{&quot;expand&quot;: true...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/sass/layout/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7503448" vertical-offset="399" max-vertical-offset="1150">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding />
         </state>
       </provider>
