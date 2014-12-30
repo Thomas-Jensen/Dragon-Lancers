@@ -1185,6 +1185,11 @@ ga('send', 'pageview');
 $(document).ready(function(){
     $('.menu-button').click(function(event){
         event.stopPropagation();
+        $('.bar-1').toggleClass('cross-icon1');
+        $('.bar-2').toggleClass('cross-icon2');
+        $('.bar-3').toggleClass('cross-icon3');
+        $('.menu').removeClass('animate fadeOut');
+        $('.menu').toggleClass('animate fadeIn');
         $('.menu').toggle();
     });
 
@@ -1215,13 +1220,6 @@ $(document).ready(function(){
         $('.bar-3').toggleClass('menu-hover');
     });
 
-    $('.menu-button').click(function(){
-        $('.bar-1').toggleClass('cross-icon1');
-        $('.bar-2').toggleClass('cross-icon2');
-        $('.bar-3').toggleClass('cross-icon3');
-        $('.menu').removeClass('animate fadeOut');
-        $('.menu').toggleClass('animate fadeIn');
-    });
 
     $('.thomas').hover(function() {
         $('.dl-text').toggle();

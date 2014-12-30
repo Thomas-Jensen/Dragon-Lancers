@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Contact Form</title>
 </head>
 <body>
 <h3>From: {{$name}} </h3>

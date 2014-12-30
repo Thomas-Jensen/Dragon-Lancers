@@ -369,7 +369,7 @@
         <source src="{{ URL::asset('assets/movies/NycTraffic.ogv')}}" type="video/ogg">
     </video>
     <figure class="no-video-contact">
-        <img src="{{ URL::asset('assets/images/build/trial3.jpg')}}" width="100%" alt="contact metro">
+        <img src="{{ URL::asset('assets/images/build/metro.jpg')}}" width="100%" alt="contact metro">
     </figure>
 
     <section class="contact" id="contact">
