@@ -1695,6 +1695,74 @@ $(document).ready(function(){
 
     });
 
+    $('.php-a').hide();
+    $('.php-bg').hover(function()
+        {
+            $('.php-a').toggleClass('animate fadeIn');
+            $('.php-a').toggle();
+        }
+    );
+
+    $('.html-a').hide();
+    $('.html-bg').hover(function()
+        {
+            $('.html-a').toggleClass('animate fadeIn');
+            $('.html-a').toggle();
+        }
+    );
+
+    $('.css-a').hide();
+    $('.css-bg').hover(function()
+        {
+            $('.css-a').toggleClass('animate fadeIn');
+            $('.css-a').toggle();
+        }
+    );
+
+    $('.javascript-a').hide();
+    $('.javascript-bg').hover(function()
+        {
+            $('.javascript-a').toggleClass('animate fadeIn');
+            $('.javascript-a').toggle();
+            $('this').innerHTML('js');
+        }
+    );
+
+    $('.design-a').hide();
+    $('.design-bg').hover(function()
+        {
+            $('.design-a').toggleClass('animate fadeIn');
+            $('.design-a').toggle();
+        }
+    );
+
+    $('.seo-a').hide();
+    $('.seo-bg').hover(function()
+        {
+            $('.seo-a').toggleClass('animate fadeIn');
+            $('.seo-a').toggle();
+        }
+    );
+
+    $('.business-a').hide();
+    $('.business-bg').hover(function()
+        {
+            $('.business-a').toggleClass('animate fadeIn');
+            $('.business-a').toggle();
+        }
+    );
+
+    $('.news-a').hide();
+    $('.news-bg').hover(function()
+        {
+            $('.news-a').toggleClass('animate fadeIn');
+            $('.news-a').toggle();
+        }
+    );
+
+
+
+
 
 
 

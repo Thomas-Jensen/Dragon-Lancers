@@ -26,7 +26,12 @@ class PagesController extends \BaseController {
 
 	public function blog()
 	{
-		return View::make('errors.coming');
+		return View::make('blog.home');
+	}
+
+	public function single()
+	{
+		return View::make('blog.single');
 	}
 
 

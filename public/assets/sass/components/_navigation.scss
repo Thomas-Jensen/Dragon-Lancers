@@ -93,15 +93,80 @@ a
   margin: .5%;
   padding: 1%;
   color: $white;
+  opacity: .8;
+  @include bp(AAA)
+  {
+    width: 40%;
+    height: 2em;
+  }
   &:hover
   {
-    opacity: .8;
+    opacity: 1;
   }
   & h2
   {
     color: $white;
   }
+  & p
+  {
+    color: $white;
+  }
 
 }
+
+.article-category
+{
+  text-align: center;
+  font-size: 200%;
+}
+
+.article-title
+{
+  text-align: center;
+  font-size: 250%;
+}
+
+.php-link a:hover
+{
+  color: $php;
+}
+
+.html-link a:hover
+{
+  color: $html;
+}
+
+.css-link a:hover
+{
+  color: $css;
+}
+
+.javascript-link a:hover
+{
+  color: $javascript;
+}
+
+.design-link a:hover
+{
+  color: $design;
+}
+
+.seo-link a:hover
+{
+  color: $seo;
+}
+
+.business-link a:hover
+{
+  color: $business;
+}
+
+.news-link a:hover
+{
+  color: $news;
+}
+
+
+
 
 

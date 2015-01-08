@@ -1,47 +1,262 @@
-.blog-container
+.blog-menu-container
 {
   width: 80%;
   align-self: center;
   flex-wrap: wrap;
   padding-top: 2%;
+  justify-content: center;
 }
 
-.php
+.blog-container
+{
+  width: 92.5%;
+  align-self: center;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  justify-content: center;
+}
+
+.blog-posts
+{
+  width: 18.3em;
+  border: 0.15em solid #f3f3f3;
+  padding: 1%;
+  height: 15em;
+  margin: 1%;
+}
+
+.blog-link
+{
+  padding-bottom: 5%;
+}
+
+.article-header
+{
+  padding-top: 5%;
+  height: 9.5em;
+  overflow: hidden;
+}
+
+.article-footer
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.php-line
+{
+  border-top: 0.15em solid $php;
+}
+
+.html-line
+{
+  border-top: 0.15em solid $html;
+}
+
+.css-line
+{
+  border-top: 0.15em solid $css;
+}
+
+
+.javascript-line
+{
+  border-top: 0.15em solid $javascript;
+}
+
+.design-line
+{
+  border-top: 0.15em solid $design;
+}
+
+.seo-line
+{
+  border-top: 0.15em solid $seo;
+}
+
+.business-line
+{
+  border-top: 0.15em solid $business;
+}
+
+.news-line
+{
+  border-top: 0.15em solid $news;
+}
+
+.php-bg
 {
   background-color: $php;
 }
 
-.html
+.html-bg
 {
   background-color: $html;
 }
 
-.css
+.css-bg
 {
   background-color: $css;
 }
 
-.javascript
+.javascript-bg
 {
   background-color: $javascript;
 }
 
-.design
+.design-bg
 {
   background-color: $design;
 }
 
-.seo
+.seo-bg
 {
   background-color: $seo;
 }
 
-.business
+.business-bg
 {
   background-color: $business;
 }
 
-.news
+.news-bg
 {
   background-color: $news;
+}
+
+.php a {
+  color: $php;
+  & a
+  {
+    color: $php;
+    opacity: .8;
+    &:hover
+    {
+      color: $php;
+      opacity: 1;
+    }
+  }
+}
+
+.html
+{
+  color: $html;
+  & a
+  {
+    color: $html;
+    opacity: .8;
+    &:hover
+    {
+      color: $html;
+      opacity: 1;
+    }
+  }
+
+}
+
+.css
+{
+  color: $css;
+  & a
+  {
+    color: $css;
+    opacity: .8;
+    &:hover
+    {
+      color: $css;
+      opacity: 1;
+    }
+  }
+}
+
+.javascript
+{
+  color: $javascript;
+  & a
+  {
+    color: $javascript;
+    opacity: .8;
+    &:hover
+    {
+      color: $javascript;
+      opacity: 1;
+    }
+  }
+}
+
+.design
+{
+  color: $design;
+  & a
+  {
+    color: $design;
+    opacity: .8;
+    &:hover
+    {
+      color: $design;
+      opacity: 1;
+    }
+  }
+}
+
+.seo
+{
+  color: $seo;
+  & a
+  {
+    color: $seo;
+    opacity: .8;
+    &:hover
+    {
+      color: $seo;
+      opacity: 1;
+    }
+  }
+}
+
+.business
+{
+  color: $business;
+  & a
+  {
+    color: $business;
+    opacity: .8;
+    &:hover
+    {
+      color: $business;
+      opacity: 1;
+    }
+  }
+}
+
+.news
+{
+  color: $news;
+  & a
+  {
+    color: $news;
+    opacity: .8;
+    &:hover
+    {
+      color: $news;
+      opacity: 1;
+    }
+  }
+
+}
+
+.animation
+{
+  justify-content: flex-end;
+  @include bp(AAA)
+  {
+    display: none;
+  }
+}
+
+.php-a, .html-a, .css-a, .javascript-a, .design-a, .seo-a, .business-a, .news-a
+{
+  display: flex;
+
 }
