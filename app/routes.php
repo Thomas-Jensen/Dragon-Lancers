@@ -23,6 +23,9 @@ Route::get('blog', 'PagesController@blog');
 Route::get('single', 'PagesController@single');
 Route::get('coming', 'PagesController@coming');
 Route::get('browser', 'PagesController@browser');
+Route::get('mail', function(){return View::make('emails.welcome');});
+Route::get('contact', function(){return View::make('emails.contact');});
+
 
 
 Route::resource('email', 'EmailController');

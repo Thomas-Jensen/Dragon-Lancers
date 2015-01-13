@@ -1,4 +1,5 @@
 <section class="footer">
+
     <ul>
         <li>
             <a class="facebook share" href="https://www.facebook.com/DragonLancers">
@@ -24,4 +25,5 @@
             </a>
         </li>
     </ul>
+    <p> &#169 Dragon Lancers {{ date('Y') }} </p>
 </section>
