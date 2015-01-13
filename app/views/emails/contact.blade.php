@@ -9,7 +9,7 @@
 <body style="margin: 0; padding: 0;">
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td>
+        <td style="padding: 20px 0 30px 0;">
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
                 <tr>
                     <td align="center">

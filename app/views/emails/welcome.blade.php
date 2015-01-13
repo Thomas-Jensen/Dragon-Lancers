@@ -9,13 +9,14 @@
 <body style="margin: 0; padding: 0;">
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td>
+        <td style="padding: 20px 0 30px 0;">
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse;">
                 <tr>
                     <td align="center">
                         <img src="{{ URL::asset('assets/images/mailheader.jpg') }}" alt="Dragon Lancers Creative Agency" width="100%" style="display: block;" />
                     </td>
                 </tr>
+                <tr>
                     <td bgcolor="#fcfcfc" style="padding-left: 10%; padding-right: 10%;">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
@@ -56,26 +57,26 @@
                         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="color: #ffffff">
                             <tr>
                                 <td width="75%" style="font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 14px; line-height: 20px;">
-                                    &#169 Dragon Lancers {{ date('Y') }}
+                                    &#169; Dragon Lancers {{ date('Y') }}
                                 </td>
                                 <td width="25%" align="right">
                                     <table border="0" cellpadding="0" cellspacing="0">
                                         <tr>
                                             <td>
                                                 <a href="https://www.facebook.com/DragonLancers">
-                                                    <img src={{ URL::asset("assets/images/facebook.png") }} alt="Facebook" width="50" height="50" style="display: block;" border="0" />
+                                                    <img src={{ URL::asset("assets/images/facebook.png") }} alt="Facebook" width="50" height="50" style="display: block;" border="0"/>
                                                 </a>
                                             </td>
                                             <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
                                             <td>
                                                 <a href="https://twitter.com/dragonlancersco">
-                                                    <img src={{ URL::asset("assets/images/twitter.png") }} alt="Twitter" width="50" height="50" style="display: block;" border="0" />
+                                                    <img src={{ URL::asset("assets/images/twitter.png") }} alt="Twitter" width="50" height="50" style="display: block;" border="0"/>
                                                 </a>
                                             </td>
                                             <td style="font-size: 0; line-height: 0;" width="20">&nbsp;</td>
                                             <td>
                                                 <a href="https://plus.google.com/111624196448495342344">
-                                                    <img src={{ URL::asset("assets/images/googleplus.png") }} alt="Google+" width="50" height="50" style="display: block;" border="0" />
+                                                    <img src={{ URL::asset("assets/images/googleplus.png") }} alt="Google+" width="50" height="50" style="display: block;" border="0"/>
                                                 </a>
                                             </td>
                                         </tr>
@@ -84,6 +85,7 @@
                             </tr>
                         </table>
                     </td>
+                </tr>
                 </tr>
             </table>
 
