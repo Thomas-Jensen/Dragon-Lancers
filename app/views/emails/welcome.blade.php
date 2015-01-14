@@ -32,7 +32,7 @@
         <td class="c14">
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="c13">
                 <tr>
-                    <td align="center"><img src={{ URL::asset('assets/images/mailheader.jpg') }} alt="Dragon Lancers Creative Agency" width="100%" class="c1" /></td>
+                    <td align="center"><img src="{{ URL::asset('assets/images/mailheader.jpg') }}" alt="Dragon Lancers Creative Agency" width="100%" class="c1" /></td>
                 </tr>
                 <tr>
                     <td class="c8">
@@ -71,11 +71,11 @@
                                 <td width="25%" align="right">
                                     <table border="0" cellpadding="0" cellspacing="0">
                                         <tr>
-                                            <td><a href="https://www.facebook.com/DragonLancers"><img src={{ ("assets/images/facebook.png") }} width="50" height="50" class="c1" border="0" alt="Facebook" /></a></td>
+                                            <td><a href="https://www.facebook.com/DragonLancers"><img src="{{ URL::asset('assets/images/facebook.png') }}" width="50" height="50" class="c1" border="0" alt="Facebook" /></a></td>
                                             <td class="c10" width="20"> </td>
-                                            <td><a href="https://twitter.com/dragonlancersco"><img src={{ ("assets/images/twitter.png") }} width="50" height="50" class="c1" border="0" alt="Twitter" /></a></td>
+                                            <td><a href="https://twitter.com/dragonlancersco"><img src="{{ URL::asset('assets/images/twitter.png') }}" width="50" height="50" class="c1" border="0" alt="Twitter" /></a></td>
                                             <td class="c10" width="20"> </td>
-                                            <td><a href="https://plus.google.com/111624196448495342344"><img src={{ ("assets/images/googleplus.png") }} width="50" height="50" class="c1" border="0" alt="Google+" /></a></td>
+                                            <td><a href="https://plus.google.com/111624196448495342344"><img src="{{ URL::asset('assets/images/googleplus.png') }}" width="50" height="50" class="c1" border="0" alt="Google+" /></a></td>
                                         </tr>
                                     </table>
                                 </td>
