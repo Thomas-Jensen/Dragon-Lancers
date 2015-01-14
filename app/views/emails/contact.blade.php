@@ -38,10 +38,10 @@
                                 <td class="c2">New inquiry from the website!</td>
                             </tr>
                             <tr>
-                                <td class="c3">From {{$name='Tea'}},</td>
+                                <td class="c3">From {{$name}},</td>
                             </tr>
                             <tr>
-                                <td class="c4">{{$messages='Messages'}}</td>
+                                <td class="c4">{{$messages}}</td>
                             </tr>
                         </table>
                     </td>

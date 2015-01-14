@@ -41,7 +41,7 @@
                                 <td class="c2">Welcome to the Dragon Family!</td>
                             </tr>
                             <tr>
-                                <td class="c3">Dear name,</td>
+                                <td class="c3">Dear {{$name}},</td>
                             </tr>
                             <tr>
                                 <td class="c4">Thank you for inquiring us about our services, you have taken the first step, in the right direction towards a great online presence.<br />
