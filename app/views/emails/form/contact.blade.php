@@ -14,11 +14,11 @@
         td.c9 {background-color: #000000; padding-left: 10%; padding-right: 10%}
         table.c8 {color: #ffffff}
         td.c7 {font-size: 0; line-height: 0;}
-        td.c6 {font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 14px; line-height: 20px;}
+        td.c6 {font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}
         td.c5 {background-color: #FCFCFC; padding-left: 10%; padding-right: 10%}
-        td.c4 {padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}
-        td.c3 {font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}
-        td.c2 {padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 24px; line-height: 20px;}
+        td.c4 {padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 20px; line-height: 24px;}
+        td.c3 {font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 20px; line-height: 24px;}
+        td.c2 {padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 30px; line-height: 30px;}
         img.c1 {display: block;}
         /*]]>*/
     </style>
@@ -27,7 +27,7 @@
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
         <td class="c11">
-            <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" class="c10">
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="450" class="c10">
                 <tr>
                     <td align="center"><img src="{{ URL::asset('assets/images/build/mailheader.jpg') }}" alt="Dragon Lancers Creative Agency" width="100%" class="c1" /></td>
                 </tr>
@@ -35,7 +35,7 @@
                     <td class="c5">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                                <td class="c2">New inquiry from the website!</td>
+                                <td class="c2">New inquiry from website!</td>
                             </tr>
                             <tr>
                                 <td class="c3">From {{$name}},</td>

@@ -28,13 +28,13 @@ class EmailController extends \BaseController {
         if ($validation -> passes())
         {
 
-        Mail::queue('emails.contact', $data, function($message) use ($data)
+        Mail::queue('emails.form.contact', $data, function($message) use ($data)
             {
                 $message->from($data['email'], $data['name']);
                 $message->to('hello@dragonlancers.com')->subject('Dragon Lancers contact form');
             }
         );
-		Mail::queue('emails.welcome', $data, function($message) use ($data)
+		Mail::queue('emails.form.welcome', $data, function($message) use ($data)
 		{
 			$message->from('welcome@dragonlancers.com', 'Dragon Lancers Welcome');
 			$message->to($data['email'])->subject('Welcome to Dragon Lancers');
