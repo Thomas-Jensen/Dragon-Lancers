@@ -21,10 +21,10 @@
                                 <td style="{padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 24px; line-height: 20px;}">New inquiry from the website!</td>
                             </tr>
                             <tr>
-                                <td style="{font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}">From {{$name}},</td>
+                                <td style="{font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}">From {{$name='Tea'}},</td>
                             </tr>
                             <tr>
-                                <td style="{padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}">{{$messages}}</td>
+                                <td style="{padding-top: 5%; padding-bottom: 10%; font-family: Helvetica, Arial, Verdana, Trebuchet MS, sans-serif; font-size: 16px; line-height: 20px;}">{{$messages='messages'}}</td>
                             </tr>
                         </table>
                     </td>
