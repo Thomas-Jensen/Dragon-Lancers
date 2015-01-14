@@ -12,7 +12,7 @@
         <td style="{padding: 20px 0 30px 0;}">
             <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="{border-collapse: collapse;}">
                 <tr>
-                    <td align="center"><img src={{ URL::asset('assets/images/build/mailheader.jpg') }} alt="Dragon Lancers Creative Agency" width="100%" style="{display: block;}" /></td>
+                    <td align="center"><img src="{{ URL::asset('assets/images/build/mailheader.jpg') }}" alt="Dragon Lancers Creative Agency" width="100%" style="{display: block;}" /></td>
                 </tr>
                 <tr>
                     <td style="{background-color: #FCFCFC; padding-left: 10%; padding-right: 10%}">

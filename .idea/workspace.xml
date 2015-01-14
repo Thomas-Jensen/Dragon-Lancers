@@ -28,9 +28,11 @@
       <file leaf-file-name="contact.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6123595" vertical-offset="553" max-vertical-offset="1426">
-              <caret line="43" column="164" selection-start-line="43" selection-start-column="164" selection-end-line="43" selection-end-column="164" />
-              <folding />
+            <state vertical-scroll-proportion="0.4522472" vertical-offset="0" max-vertical-offset="1426">
+              <caret line="14" column="104" selection-start-line="14" selection-start-column="104" selection-end-line="14" selection-end-column="104" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -656,9 +658,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/emails/contact.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6123595" vertical-offset="553" max-vertical-offset="1426">
-          <caret line="43" column="164" selection-start-line="43" selection-start-column="164" selection-end-line="43" selection-end-column="164" />
-          <folding />
+        <state vertical-scroll-proportion="0.4522472" vertical-offset="0" max-vertical-offset="1426">
+          <caret line="14" column="104" selection-start-line="14" selection-start-column="104" selection-end-line="14" selection-end-column="104" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
